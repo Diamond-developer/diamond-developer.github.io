@@ -1,1 +1,53 @@
-*{margin: 0; padding: 0;} 
+/* *{margin: 0; padding: 0;}  */
+
+body {}
+
+.khoi1 {
+  height: 600px;
+  width: 100%;
+  background: #e9585f;
+}
+
+.khoi1:before {
+  content: "";
+  position: absolute;
+  height: 600px;
+  width: 41%;
+  background: #ec4d55;
+}
+
+.tt {
+  padding-top: 70px;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+img {
+  border-radius: 40px;
+}
+
+#mouse:after {
+  content: "";
+  width: 3px;
+  height: 8px;
+  border: white solid 1px;
+  left: 49%;
+  position: absolute;
+  /* bottom: 60%; */
+}
+
+#mouse {
+  margin-top: 50px;
+  width: 40px;
+  height: 77px;
+  border: white solid 1px;
+  position: absolute;
+  left: 48%;
+  border-radius: 30px;
+}
+
+#mouse:hover {
+  margin-top: 45px;
+  cursor: pointer;
+}
