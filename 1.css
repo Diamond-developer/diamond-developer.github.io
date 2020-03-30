@@ -51,3 +51,25 @@ img {
   margin-top: 45px;
   cursor: pointer;
 }
+
+.ttleft {
+  text-align: right;
+}
+
+.ttright {
+  text-align: left;
+}
+
+.font {
+  color: red;
+}
+
+.imgBetween {
+  padding: 15px;
+  padding-top: 100px;
+}
+
+.cmt {
+  width: 60%;
+  margin: auto;
+}
