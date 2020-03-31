@@ -52,6 +52,10 @@ img {
   cursor: pointer;
 }
 
+.thongtin {
+  padding-top: 100px;
+}
+
 .ttleft {
   text-align: right;
 }
@@ -65,8 +69,8 @@ img {
 }
 
 .imgBetween {
-  padding: 15px;
-  padding-top: 100px;
+  /* margin: auto; */
+  padding: 110px;
 }
 
 .cmt {
