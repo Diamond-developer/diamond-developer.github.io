@@ -32,7 +32,8 @@ img {
   width: 3px;
   height: 8px;
   border: white solid 1px;
-  left: 49%;
+  left: 43%;
+  top: 18%;
   position: absolute;
   /* bottom: 60%; */
 }
@@ -77,4 +78,20 @@ img {
 .cmt {
   width: 60%;
   margin: auto;
+}
+
+@media(max-width:576px) {
+  * {}
+  .card.cmt {
+    width: 100%;
+  }
+  .ttleft {
+    text-align: left;
+  }
+  .khoi1:before {
+    width: 47%;
+  }
+  div#mouse {
+    left: 45%;
+  }
 }
