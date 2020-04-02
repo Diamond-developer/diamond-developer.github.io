@@ -1,7 +1,7 @@
 ﻿$(document).ready(function() {
   // alert("ok");
   $("#crolltop").click(function() {
-    $('body,html').animate({ scrollTop: 1 }, 700);
+    $('body,html').animate({ scrollTop: 0 }, 700);
   });
 
   $("#mouse").click(function() {
@@ -17,6 +17,10 @@
   });
 
   $("#lienhe").click(function() {
+    $('body,html').animate({ scrollTop: $('.jumbotron').offset().top }, 700);
+  });
+
+  $("#hoptac").click(function() {
     $('body,html').animate({ scrollTop: $('.jumbotron').offset().top }, 700);
   });
 
