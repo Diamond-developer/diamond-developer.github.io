@@ -1,7 +1,5 @@
 /* *{margin: 0; padding: 0;}  */
 
-body {}
-
 .khoi1 {
   height: 600px;
   width: 100%;
@@ -81,7 +79,7 @@ img {
 }
 
 @media(max-width:576px) {
-  * {}
+  /* * {} */
   .card.cmt {
     width: 100%;
   }
